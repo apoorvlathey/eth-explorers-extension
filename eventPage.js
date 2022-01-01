@@ -5,7 +5,7 @@ const explorersInfo = {
   Bloxy: {
     baseUrl: "https://bloxy.info/tx/",
   },
-  "Ethtxn.info": {
+  "Ethtx.info": {
     baseUrl: "https://ethtx.info/mainnet/",
   },
   Tenderly: {
