@@ -35,7 +35,7 @@ chrome.contextMenus.onClicked.addListener((clickData) => {
     clickData.selectionText
   ) {
     if (!validateTxnHash(clickData.selectionText)) {
-      alert("Txn Hash is invalid!");
+      // alert("Txn Hash is invalid!"); // Not available in manifest v3
       return;
     }
 
