@@ -22,14 +22,14 @@ for (var key in explorersInfo) {
 }
 
 for (var i = 0; i < explorerIds.length; i++) {
-  chrome.contextMenus.create({
+  browser.contextMenus.create({
     id: explorerIds[i],
     title: explorerIds[i],
     contexts: ["selection"],
   });
 }
 
-chrome.contextMenus.onClicked.addListener((clickData) => {
+browser.contextMenus.onClicked.addListener((clickData) => {
   if (
     explorersInfo.hasOwnProperty(clickData.menuItemId) &&
     clickData.selectionText
@@ -41,7 +41,7 @@ chrome.contextMenus.onClicked.addListener((clickData) => {
 
     var newURL =
       explorersInfo[clickData.menuItemId].baseUrl + clickData.selectionText;
-    chrome.tabs.create({ url: newURL });
+    browser.tabs.create({ url: newURL });
   }
 });
 

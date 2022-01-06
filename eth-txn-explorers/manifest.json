@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "ETH Txn Explorers",
   "version": "1.0",
   "description": "Select mainnet transaction hash and view it on various popular Ethereum blockchain explorers",
@@ -9,7 +9,12 @@
     "16": "./icons/icon16.png"
   },
   "background": {
-    "service_worker": "eventPage.js"
+    "scripts": ["eventPage.js"]
   },
-  "permissions": ["contextMenus"]
+  "permissions": ["contextMenus"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "txn@eth-explorers-extension"
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "ETH Address Explorers",
   "version": "1.0",
   "description": "Select Ethereum address and view it on various popular blockchain explorers and dashboards.",
@@ -9,7 +9,12 @@
     "16": "./icons/icon16.png"
   },
   "background": {
-    "service_worker": "eventPage.js"
+    "scripts": ["eventPage.js"]
   },
-  "permissions": ["contextMenus"]
+  "permissions": ["contextMenus"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "address@eth-explorers-extension"
+    }
+  }
 }
