@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "ETH Address Explorers",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Select Ethereum address and view it on various popular blockchain explorers and dashboards.",
   "icons": {
     "128": "./icons/icon128.png",
@@ -11,5 +11,13 @@
   "background": {
     "service_worker": "eventPage.js"
   },
-  "permissions": ["contextMenus"]
+  "action": {
+    "default_icon": {
+      "128": "./icons/icon128.png",
+      "48": "./icons/icon48.png",
+      "16": "./icons/icon16.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "permissions": ["contextMenus", "storage"]
 }
