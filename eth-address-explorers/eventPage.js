@@ -3,6 +3,10 @@ const explorersInfo = {
     baseUrl: "https://www.breadcrumbs.app/reports/",
     active: true,
   },
+  BscScan: {
+    baseUrl: "https://bscscan.com/address/",
+    active: true,
+  },
   Debank: {
     baseUrl: "https://debank.com/profile/",
     active: true,
@@ -15,12 +19,24 @@ const explorersInfo = {
     baseUrl: "https://ethtective.com/address/",
     active: true,
   },
+  FTMScan: {
+    baseUrl: "https://ftmscan.com/address/",
+    active: true,
+  },
   Nansen: {
     baseUrl: "https://pro.nansen.ai/wallet-profiler?address=",
     active: true,
   },
   OpenSea: {
     baseUrl: "https://opensea.io/",
+    active: true,
+  },
+  PolygonScan: {
+    baseUrl: "https://polygonscan.com/address/",
+    active: true,
+  },
+  SnowTrace: {
+    baseUrl: "https://snowtrace.io/address/",
     active: true,
   },
   Zapper: {
@@ -32,6 +48,13 @@ const explorersInfo = {
     active: true,
   },
 };
+const supportedURLs = [
+  "bscscan.com/address/",
+  "etherscan.io/address/",
+  "ftmscan.com/address/",
+  "polygonscan.com/address/",
+  "snowtrace.io/address/",
+];
 
 chrome.runtime.onInstalled.addListener(() => {
   chrome.storage.sync.set(
@@ -88,7 +111,7 @@ chrome.contextMenus.onClicked.addListener((clickData) => {
   // pick out address from the href of a supported link
   else if (clickData.linkUrl) {
     const link = clickData.linkUrl;
-    if (link.includes("etherscan.io/address/")) {
+    if (supportedURLs.some((el) => link.includes(el))) {
       const address = link.substring(link.length - 42, link.length);
       var newURL = explorersInfo[clickData.menuItemId].baseUrl + address;
       chrome.tabs.create({ url: newURL });
