@@ -8,7 +8,10 @@ Supercharge your Etherscan experience! Right-click on any address link and insta
 
 It also works on any page, by selecting the address text and right-clicking to choose from the list of explorers and dashboards.
 
-<img src="./.github/ss1.jpg" />
+<img src="./.github/ss1.jpg" /> <br/>
+
+Enable/Disable your favourite explorers from the popup menu: <br/>
+<img src="./.github/ss3.jpg" />
 
 ## 2. eth-txn-explorers
 
