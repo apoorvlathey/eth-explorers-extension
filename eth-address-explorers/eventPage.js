@@ -1,4 +1,8 @@
 const explorersInfo = {
+  Blockscan: {
+    baseUrl: "https://blockscan.com/address/",
+    active: true,
+  },
   Breadcrumbs: {
     baseUrl: "https://www.breadcrumbs.app/reports/",
     active: true,
