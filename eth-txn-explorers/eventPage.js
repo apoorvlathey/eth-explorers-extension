@@ -11,6 +11,9 @@ const explorersInfo = {
   Tenderly: {
     baseUrl: "https://dashboard.tenderly.co/tx/mainnet/",
   },
+  BlockSec: {
+    baseUrl: "https://versatile.blocksecteam.com/tx/eth/",
+  },
 };
 
 const explorerIds = [];
