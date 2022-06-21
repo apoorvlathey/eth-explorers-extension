@@ -27,6 +27,14 @@ const explorersInfo = {
     baseUrl: "https://ftmscan.com/address/",
     active: true,
   },
+  GemAccount: {
+    baseUrl: "https://www.gem.xyz/profile/",
+    active: true,
+  },
+  GemCollection: {
+    baseUrl: "https://www.gem.xyz/collection/",
+    active: true,
+  },
   Nansen: {
     baseUrl: "https://pro.nansen.ai/wallet-profiler?address=",
     active: true,
