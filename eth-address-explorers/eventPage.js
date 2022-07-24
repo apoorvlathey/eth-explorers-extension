@@ -47,6 +47,10 @@ const explorersInfo = {
     baseUrl: "https://polygonscan.com/address/",
     active: true,
   },
+  Remix: {
+    baseUrl: "https://remix.ethereum.org/#address=",
+    active: true,
+  },
   SnowTrace: {
     baseUrl: "https://snowtrace.io/address/",
     active: true,
