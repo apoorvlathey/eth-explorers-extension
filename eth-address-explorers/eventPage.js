@@ -35,6 +35,10 @@ const explorersInfo = {
     baseUrl: "https://www.gem.xyz/collection/",
     active: true,
   },
+  Impersonator: {
+    baseUrl: "https://www.impersonator.xyz/?address=",
+    active: true,
+  },
   Nansen: {
     baseUrl: "https://pro.nansen.ai/wallet-profiler?address=",
     active: true,
