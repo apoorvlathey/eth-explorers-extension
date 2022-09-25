@@ -14,6 +14,9 @@ const explorersInfo = {
   BlockSec: {
     baseUrl: "https://versatile.blocksecteam.com/tx/eth/",
   },
+  EigenPhi: {
+    baseUrl: "https://tx.eigenphi.io/analyseTransaction?chain=ALL&tx=",
+  },
 };
 
 const explorerIds = [];
