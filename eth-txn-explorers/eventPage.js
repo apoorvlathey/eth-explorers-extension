@@ -2,6 +2,24 @@ const explorersInfo = {
   Etherscan: {
     baseUrl: "https://etherscan.io/tx/",
   },
+  Arbiscan: {
+    baseUrl: "https://arbiscan.io/tx/",
+  },
+  Optiscan: {
+    baseUrl: "https://optimistic.etherscan.io/tx/",
+  },
+  Polyscan: {
+    baseUrl: "https://polygonscan.com/tx/",
+  },
+  Avaxscan: {
+    baseUrl: "https://snowtrace.io/tx/",
+  },
+  FTMscan: {
+    baseUrl: "https://ftmscan.com/tx/",
+  },
+  Celoscan: {
+    baseUrl: "https://celoscan.io/tx/",
+  },
   Bloxy: {
     baseUrl: "https://bloxy.info/tx/",
   },
