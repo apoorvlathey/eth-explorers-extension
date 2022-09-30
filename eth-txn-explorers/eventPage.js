@@ -30,7 +30,7 @@ const explorersInfo = {
     baseUrl: "https://dashboard.tenderly.co/tx/mainnet/",
   },
   BlockSec: {
-    baseUrl: "https://versatile.blocksecteam.com/tx/eth/",
+    baseUrl: "https://phalcon.blocksec.com/tx/eth/",
   },
   EigenPhi: {
     baseUrl: "https://tx.eigenphi.io/analyseTransaction?chain=ALL&tx=",
