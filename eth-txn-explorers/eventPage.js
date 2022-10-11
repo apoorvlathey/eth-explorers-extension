@@ -35,7 +35,7 @@ const explorersInfo = {
   EigenPhi: {
     baseUrl: "https://tx.eigenphi.io/analyseTransaction?chain=ALL&tx=",
   },
-  Samczum: {
+  Samczsun: {
     baseUrl: "https://tx.eth.samczsun.com/#txhash=",
   },   
 };
