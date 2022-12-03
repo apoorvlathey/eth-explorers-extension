@@ -37,7 +37,10 @@ const explorersInfo = {
   },
   Samczsun: {
     baseUrl: "https://tx.eth.samczsun.com/ethereum/",
-  },   
+  },
+  Cruise: {
+    baseUrl: "https://cruise.supremacy.team/detail/?tx=",
+  },
 };
 
 const explorerIds = [];
