@@ -35,6 +35,9 @@ const explorersInfo = {
   EigenPhi: {
     baseUrl: "https://tx.eigenphi.io/analyseTransaction?chain=ALL&tx=",
   },
+  Cruise: {
+    baseUrl: "https://cruise.supremacy.team/detail/?tx=",
+  },
 };
 
 const explorerIds = [];
