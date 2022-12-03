@@ -1,4 +1,8 @@
 const explorersInfo = {
+  ABIw1nt3r: {
+    baseUrl: "https://abi.w1nt3r.xyz/mainnet/",
+    active: true,
+  },
   Blockscan: {
     baseUrl: "https://blockscan.com/address/",
     active: true,
