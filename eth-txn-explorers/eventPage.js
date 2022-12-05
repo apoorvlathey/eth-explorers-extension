@@ -41,6 +41,9 @@ const explorersInfo = {
   Cruise: {
     baseUrl: "https://cruise.supremacy.team/detail/?tx=",
   },
+  Viewblock: {
+    baseUrl: "https://viewblock.io/starknet/tx/",
+  },
 };
 
 const explorerIds = [];
