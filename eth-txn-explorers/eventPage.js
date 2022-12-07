@@ -1,9 +1,33 @@
 const explorersInfo = {
+  Arbiscan: {
+    baseUrl: "https://arbiscan.io/tx/",
+  },
+  Avaxscan: {
+    baseUrl: "https://snowtrace.io/tx/",
+  },
+  BlockSec: {
+    baseUrl: "https://phalcon.blocksec.com/tx/eth/",
+  },
+  Bloxy: {
+    baseUrl: "https://bloxy.info/tx/",
+  },
+  Celoscan: {
+    baseUrl: "https://celoscan.io/tx/",
+  },
+  Cruise: {
+    baseUrl: "https://cruise.supremacy.team/detail/?tx=",
+  },
+  EigenPhi: {
+    baseUrl: "https://tx.eigenphi.io/analyseTransaction?chain=ALL&tx=",
+  },
   Etherscan: {
     baseUrl: "https://etherscan.io/tx/",
   },
-  Arbiscan: {
-    baseUrl: "https://arbiscan.io/tx/",
+  "Ethtx.info": {
+    baseUrl: "https://ethtx.info/mainnet/",
+  },
+  FTMscan: {
+    baseUrl: "https://ftmscan.com/tx/",
   },
   Optiscan: {
     baseUrl: "https://optimistic.etherscan.io/tx/",
@@ -11,35 +35,11 @@ const explorersInfo = {
   Polyscan: {
     baseUrl: "https://polygonscan.com/tx/",
   },
-  Avaxscan: {
-    baseUrl: "https://snowtrace.io/tx/",
-  },
-  FTMscan: {
-    baseUrl: "https://ftmscan.com/tx/",
-  },
-  Celoscan: {
-    baseUrl: "https://celoscan.io/tx/",
-  },
-  Bloxy: {
-    baseUrl: "https://bloxy.info/tx/",
-  },
-  "Ethtx.info": {
-    baseUrl: "https://ethtx.info/mainnet/",
-  },
-  Tenderly: {
-    baseUrl: "https://dashboard.tenderly.co/tx/mainnet/",
-  },
-  BlockSec: {
-    baseUrl: "https://phalcon.blocksec.com/tx/eth/",
-  },
-  EigenPhi: {
-    baseUrl: "https://tx.eigenphi.io/analyseTransaction?chain=ALL&tx=",
-  },
   Samczsun: {
     baseUrl: "https://tx.eth.samczsun.com/ethereum/",
   },
-  Cruise: {
-    baseUrl: "https://cruise.supremacy.team/detail/?tx=",
+  Tenderly: {
+    baseUrl: "https://dashboard.tenderly.co/tx/mainnet/",
   },
   Viewblock: {
     baseUrl: "https://viewblock.io/starknet/tx/",
