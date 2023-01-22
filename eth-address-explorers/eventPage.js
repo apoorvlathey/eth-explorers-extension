@@ -63,6 +63,10 @@ const explorersInfo = {
     baseUrl: "https://snowtrace.io/address/",
     active: true,
   },
+  Solidlint: {
+    baseUrl: "https://www.solidlint.com/address/",
+    active: true,
+  },
   Zapper: {
     baseUrl: "https://zapper.fi/account/",
     active: true,
