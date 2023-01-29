@@ -47,6 +47,10 @@ const explorersInfo = {
     baseUrl: "https://www.gem.xyz/collection/",
     active: true,
   },
+  GnosisScan: {
+    baseUrl: "https://gnosisscan.io/address/",
+    active: true,
+  },
   Impersonator: {
     baseUrl: "https://www.impersonator.xyz/?address=",
     active: true,
@@ -95,6 +99,7 @@ const supportedURLs = [
   "celoscan.io/address/",
   "etherscan.io/address/",
   "ftmscan.com/address/",
+  "gnosisscan.io/address/",
   "optimistic.etherscan.io/address/",
   "polygonscan.com/address/",
   "snowtrace.io/address/",
