@@ -3,6 +3,10 @@ const explorersInfo = {
     baseUrl: "https://abi.w1nt3r.xyz/mainnet/",
     active: true,
   },
+  Arbiscan: { 
+    baseUrl: "https://arbiscan.io/address/",
+    active: true,
+  },
   Blockscan: {
     baseUrl: "https://blockscan.com/address/",
     active: true,
@@ -13,6 +17,10 @@ const explorersInfo = {
   },
   BscScan: {
     baseUrl: "https://bscscan.com/address/",
+    active: true,
+  },
+  CeloScan : {
+    baseUrl: "https://celoscan.io/address/",
     active: true,
   },
   Debank: {
@@ -39,6 +47,10 @@ const explorersInfo = {
     baseUrl: "https://www.gem.xyz/collection/",
     active: true,
   },
+  GnosisScan: {
+    baseUrl: "https://gnosisscan.io/address/",
+    active: true,
+  },
   Impersonator: {
     baseUrl: "https://www.impersonator.xyz/?address=",
     active: true,
@@ -49,6 +61,10 @@ const explorersInfo = {
   },
   OpenSea: {
     baseUrl: "https://opensea.io/",
+    active: true,
+  },
+  OptimismScan: {
+    baseUrl: "https://optimistic.etherscan.io/address/",
     active: true,
   },
   PolygonScan: {
@@ -76,10 +92,15 @@ const explorersInfo = {
     active: true,
   },
 };
+// create a constant array of supported URLs
 const supportedURLs = [
+  "arbiscan.io/address/",
   "bscscan.com/address/",
+  "celoscan.io/address/",
   "etherscan.io/address/",
   "ftmscan.com/address/",
+  "gnosisscan.io/address/",
+  "optimistic.etherscan.io/address/",
   "polygonscan.com/address/",
   "snowtrace.io/address/",
 ];
