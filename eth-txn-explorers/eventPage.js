@@ -29,14 +29,14 @@ const explorersInfo = {
   FTMscan: {
     baseUrl: "https://ftmscan.com/tx/",
   },
+  Openchain: {
+    baseUrl: "https://openchain.xyz/trace/ethereum/",
+  },
   Optiscan: {
     baseUrl: "https://optimistic.etherscan.io/tx/",
   },
   Polyscan: {
     baseUrl: "https://polygonscan.com/tx/",
-  },
-  Samczsun: {
-    baseUrl: "https://tx.eth.samczsun.com/ethereum/",
   },
   Tenderly: {
     baseUrl: "https://dashboard.tenderly.co/tx/mainnet/",
