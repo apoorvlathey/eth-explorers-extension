@@ -27,6 +27,10 @@ const explorersInfo = {
     baseUrl: "https://celoscan.io/address/",
     active: true,
   },
+  ContractReader : {
+    baseUrl: "https://www.contractreader.io/contract/",
+    active: true,
+  },
   Debank: {
     baseUrl: "https://debank.com/profile/",
     active: true,
