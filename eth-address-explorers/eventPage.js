@@ -31,6 +31,10 @@ const explorersInfo = {
     baseUrl: "https://debank.com/profile/",
     active: true,
   },
+  Dedaub: {
+    baseUrl: "https://library.dedaub.com/ethereum/address/",
+    active: true,
+  },
   Etherscan: {
     baseUrl: "https://etherscan.io/address/",
     active: true,
