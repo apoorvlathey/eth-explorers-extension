@@ -19,6 +19,10 @@ const explorersInfo = {
     baseUrl: "https://bscscan.com/address/",
     active: true,
   },
+  Bytegraph: {
+    baseUrl: "https://bytegraph.xyz/contract/",
+    active: true,
+  },
   CeloScan : {
     baseUrl: "https://celoscan.io/address/",
     active: true,
