@@ -41,6 +41,9 @@ const explorersInfo = {
   Tenderly: {
     baseUrl: "https://dashboard.tenderly.co/tx/mainnet/",
   },
+  Sentio: {
+    baseUrl: "https://app.sentio.xyz/tx/1/",
+  },
   Viewblock: {
     baseUrl: "https://viewblock.io/starknet/tx/",
   },
