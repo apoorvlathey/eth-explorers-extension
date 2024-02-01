@@ -20,6 +20,9 @@ const explorersInfo = {
   EigenPhi: {
     baseUrl: "https://tx.eigenphi.io/analyseTransaction?chain=ALL&tx=",
   },
+  Ethernow: {
+    baseUrl: "https://www.ethernow.xyz/tx/",
+  },
   Etherscan: {
     baseUrl: "https://etherscan.io/tx/",
   },
