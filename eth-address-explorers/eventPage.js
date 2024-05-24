@@ -95,6 +95,10 @@ const explorersInfo = {
     baseUrl: "https://www.solidlint.com/address/",
     active: true,
   },
+  StorageViewer: {
+    baseUrl: "https://tintinweb.github.io/smart-contract-storage-viewer?",
+    active: true,    
+  },  
   Zapper: {
     baseUrl: "https://zapper.fi/account/",
     active: true,
