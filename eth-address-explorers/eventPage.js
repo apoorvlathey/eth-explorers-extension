@@ -87,6 +87,10 @@ const explorersInfo = {
     baseUrl: "https://remix.ethereum.org/#address=",
     active: true,
   },
+  SIMExplorer: {
+    baseUrl: "https://explorer.sim.io/eth/latest/",
+    active: true,   
+  }
   SnowTrace: {
     baseUrl: "https://snowtrace.io/address/",
     active: true,
