@@ -3,7 +3,7 @@ const explorersInfo = {
     baseUrl: "https://abi.w1nt3r.xyz/mainnet/",
     active: true,
   },
-  Arbiscan: { 
+  Arbiscan: {
     baseUrl: "https://arbiscan.io/address/",
     active: true,
   },
@@ -23,11 +23,11 @@ const explorersInfo = {
     baseUrl: "https://bytegraph.xyz/contract/",
     active: true,
   },
-  CeloScan : {
+  CeloScan: {
     baseUrl: "https://celoscan.io/address/",
     active: true,
   },
-  ContractReader : {
+  ContractReader: {
     baseUrl: "https://www.contractreader.io/contract/",
     active: true,
   },
@@ -88,9 +88,9 @@ const explorersInfo = {
     active: true,
   },
   SIMExplorer: {
-    baseUrl: "https://explorer.sim.io/eth/latest/",
-    active: true,   
-  }
+    baseUrl: "https://explorer.sim.io/eth/latest/account/",
+    active: true,
+  },
   SnowTrace: {
     baseUrl: "https://snowtrace.io/address/",
     active: true,
@@ -101,8 +101,8 @@ const explorersInfo = {
   },
   StorageViewer: {
     baseUrl: "https://tintinweb.github.io/smart-contract-storage-viewer?",
-    active: true,    
-  },  
+    active: true,
+  },
   Zapper: {
     baseUrl: "https://zapper.fi/account/",
     active: true,
